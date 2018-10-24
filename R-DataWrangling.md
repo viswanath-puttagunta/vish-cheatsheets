@@ -79,6 +79,7 @@ promo3 <- promo2[which(promo2$paidp <= 10.06), ]
 
 Partition by cumulative sum
 Ref: https://ugoproto.github.io/ugo_r_doc/Data_Analysis_in_R,_the_data.table_Way/
+Ref: https://stackoverflow.com/questions/8559485/cumulative-sum-by-group-in-sqldf
 ```
 library(data.table)
 DT = data.table(place = 1:4, time = rep(1:3, each = 4), value = 1:3)
