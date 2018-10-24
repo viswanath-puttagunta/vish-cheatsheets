@@ -56,6 +56,7 @@ aggregatedDf <- cbind(temp1,temp2)
 Change column names
 ```
 colnames(aggregatedDf) <- c("ID","NumPeriods", "paidSum")
+names(aggregatedDf)[names(aggregatedDf) == "old.name"] <- 'new.name'
 ```
 
 Left Join
