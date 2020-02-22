@@ -1,4 +1,5 @@
-###Get the city with max len and min len
+
+### Get the city with max len and min len
 **Partition By, Table/independent Variable usage **
 
 DECLARE @CLSV TABLE(CITY VARCHAR(256), CITY_LEN INT, RANK INT)
